@@ -10,7 +10,7 @@ import androidx.lifecycle.LiveData;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 
-public class MainViewModel extends AndroidViewModel {
+public class  MainViewModel extends AndroidViewModel {
     private static MovieDataBase database;
     private LiveData<List<Movie>> movies;
     private LiveData<List<FavouriteMovie>> favouriteMovies;

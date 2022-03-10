@@ -111,6 +111,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
                 setMethodOfSort(isChecked);
             }
         });
+
         switchSort.setChecked(false);
         movieAdapter.setOnPosterClickListener(new MovieAdapter.OnPosterClickListener() {
             @Override
